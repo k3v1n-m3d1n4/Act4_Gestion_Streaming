@@ -23,5 +23,33 @@ public class Main {
 
             }
         } while (opc!=5);
+        do {
+            System.out.println("--PLATAFORMA DE STREAMING--");
+            System.out.println("1) Añadir usuario");
+            System.out.println("2) ");
+            System.out.println("3)");
+            System.out.println("4)");
+            System.out.println("5) Salir");
+            System.out.println("Selecciona una opción:");
+            opc = sc.nextInt();
+            System.out.println("esto es simulacion");
+            switch (opc) {
+
+            }
+        } while (opc!=5);
+        do {
+            System.out.println("--PLATAFORMA DE STREAMING--");
+            System.out.println("1) Añadir usuario");
+            System.out.println("2) ");
+            System.out.println("3)");
+            System.out.println("4)");
+            System.out.println("5) Salir");
+            System.out.println("Selecciona una opción:");
+            opc = sc.nextInt();
+            System.out.println("esto es simulacion");
+            switch (opc) {
+
+            }
+        } while (opc!=5);
     }
 }
