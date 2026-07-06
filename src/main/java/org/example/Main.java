@@ -18,6 +18,7 @@ public class Main {
             System.out.println("5) Salir");
             System.out.println("Selecciona una opción:");
             opc = sc.nextInt();
+            System.out.println("esto es simulacion");
             switch (opc) {
 
             }
