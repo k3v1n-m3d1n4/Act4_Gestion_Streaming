@@ -1,6 +1,6 @@
 package org.example;
 
-public class PlanBasico implements PlanSuscripcion{  //implementacion
+public class PlanBasico implements PlanSuscripcion{
 
 
     @Override
