@@ -1,10 +1,8 @@
 package org.example;
 
-public class PlanBasico implements PlanSuscripcion{
-
-
+public class PlanPremium implements PlanSuscripcion {
     @Override
     public double calcularCosto(int meses) {
-        return meses*5;
+        return (meses * 14) + 3;
     }
 }
