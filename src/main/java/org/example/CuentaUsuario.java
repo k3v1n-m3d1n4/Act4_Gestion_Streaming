@@ -1,6 +1,6 @@
 package org.example;
 
-public class CuentaUsuario {
+public abstract class CuentaUsuario {
     private String CorreoElectronico;
     private int mesesActivo;
     private PlanSuscripcion planSuscripcion;
@@ -10,6 +10,12 @@ public class CuentaUsuario {
         this.mesesActivo = mesesActivo;
         this.planSuscripcion = planSuscripcion;
     }
+
+    public double obtenerTotalAPagar() {
+        return planSuscripcion.calcularCosto(mesesActivo);
+    }
+
+    public abstract String Plan();
 
     public String getCorreoElectronico() {
         return CorreoElectronico;
