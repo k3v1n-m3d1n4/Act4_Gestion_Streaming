@@ -2,7 +2,7 @@ package org.example;
 
 public class CuentaBasico extends CuentaUsuario{
 
-    public CuentaBasico(String correoElectronico, int mesesActivo, PlanSuscripcion planSuscripcion) {
+    public CuentaBasico(String correoElectronico, int mesesActivo) {
         super(correoElectronico, mesesActivo, new PlanBasico());
     }
 

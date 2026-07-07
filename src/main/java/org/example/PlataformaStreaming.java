@@ -15,10 +15,10 @@ double total =0;
 for (CuentaUsuario c: this.list){
     double costo= c.obtenerTotalAPagar();
     total+= costo;
-    System.out.println("Correo Electronico: "+ c.getCorreoElectronico()+ "   Meses: " +c.getMesesActivo()+ "   Plan Suscripcion: " + c.Plan()+ costo);
+    System.out.println("Correo Electronico: "+ c.getCorreoElectronico()+ "   Meses: " +c.getMesesActivo()+ "   Plan Suscripcion: " + c.Plan()+ "  Costo: " +costo);
 
 }
-    System.out.println("Total recaudado" + total);
+    System.out.println("Total recaudado:  " + total);
 }
 
 
