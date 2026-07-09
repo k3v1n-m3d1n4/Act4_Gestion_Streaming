@@ -7,6 +7,11 @@ public class CuentaPremium extends CuentaUsuario{
 
     @Override
     public String Plan() {
-        return "Plan Premium";
+        return " Premium";
+    }
+
+    @Override
+    public String beneficios() {
+        return "Acesso a contenido 4K Ultra HD y audio espacial.";
     }
 }

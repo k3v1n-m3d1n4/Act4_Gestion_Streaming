@@ -8,6 +8,11 @@ public class CuentaBasico extends CuentaUsuario{
 
     @Override
     public String Plan() {
-        return "¨Plan basico.";
+        return " Basico.";
+    }
+
+    @Override
+    public String beneficios() {
+        return "1 pantalla, " + "Calidad SD";
     }
 }

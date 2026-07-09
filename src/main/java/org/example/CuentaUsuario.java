@@ -17,6 +17,8 @@ public abstract class CuentaUsuario {
 
     public abstract String Plan();
 
+    public abstract String beneficios();
+
     public String getCorreoElectronico() {
         return CorreoElectronico;
     }

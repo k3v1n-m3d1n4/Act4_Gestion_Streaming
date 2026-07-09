@@ -9,6 +9,11 @@ public class CuentaEstandar extends CuentaUsuario{
 
     @Override
     public String Plan() {
-        return "Plan Estandar";
+        return " Estandar";
+    }
+
+    @Override
+    public String beneficios() {
+        return "2 pantallas, " + "Calidad Full HD";
     }
 }
